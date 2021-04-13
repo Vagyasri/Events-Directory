@@ -26,7 +26,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://vagyasri.github.io/Online-Events-Directory/)
+[Live Demo Link](https://vagyasri.github.io/Events-Directory/)
 
 ## Author 1
 
