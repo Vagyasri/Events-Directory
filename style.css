@@ -1,10 +1,14 @@
 :root {
   --red: #cc4233;
-  --gray: #a3a3a3;
+  --black: #2e2c2c;
 }
 
 ul {
   list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
 }
 
 .header-bg {
@@ -34,4 +38,13 @@ ul {
 .article-img {
   width: 15vw;
   height: 25vh;
+}
+
+.footer {
+  background-color: var(--black);
+}
+
+.footer-logo {
+  height: 90px;
+  width: 120px;
 }
