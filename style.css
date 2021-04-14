@@ -1,8 +1,32 @@
 :root {
-  --pink: #ff385c;
+  --red: #cc4233;
   --gray: #a3a3a3;
 }
 
 ul {
   list-style-type: none;
+}
+
+.header-bg {
+  background-color: var(--red);
+}
+
+.text-space {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.m-layout {
+  background: url(Image/main.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.m-form {
+  width: 1000px;
+  opacity: 0.7;
+}
+
+.search-img {
+  width: 90px;
 }
