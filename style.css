@@ -30,3 +30,8 @@ ul {
 .search-img {
   width: 90px;
 }
+
+.article-img {
+  width: 15vw;
+  height: 28vh;
+}
