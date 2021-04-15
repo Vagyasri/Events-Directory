@@ -26,7 +26,7 @@ li a {
   height: 100vh;
 }
 
-.gateway{
+.gateway {
   width: 70%;
 }
 
@@ -38,10 +38,6 @@ li a {
   width: 90px;
 }
 
-.sky{
-  height: 20%;
-}
-
 .footer {
   background-color: var(--black);
 }
@@ -51,8 +47,8 @@ li a {
   width: 120px;
 }
 
-@media screen and (max-width:480px){
-  .gateway{
-    width:90%;
+@media screen and (max-width: 480px) {
+  .gateway {
+    width: 90%;
   }
 }
