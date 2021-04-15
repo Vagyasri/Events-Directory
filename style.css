@@ -47,6 +47,12 @@ li a {
   width: 120px;
 }
 
+/* Result Page  */
+
+.form-section {
+  background-color: rgb(241, 241, 241);
+}
+
 @media screen and (max-width: 480px) {
   .gateway {
     width: 90%;
