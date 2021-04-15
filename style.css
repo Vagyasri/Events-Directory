@@ -57,6 +57,8 @@ button a {
   background-color: rgb(241, 241, 241);
 }
 
+/* Details Page  */
+
 @media screen and (max-width: 480px) {
   .gateway {
     width: 90%;
