@@ -9,14 +9,33 @@
 
 # Screenshot
 
-### Mobile
+### Main Search Page: Mobile
 
+![Mobile France Directory](Image/SC-3.jpg)
 
-![Mobile France Directory](mobile-art.png)
+### Main Search Page: Tablet
 
-### Desktop
+![Tablet France Directory](Image/SC-2.jpg)
 
-![Desktop France Directory](articles.png)
+### Main Search Page: Desktop
+
+![Desktop France Directory](Image/SC-1.jpg)
+
+### Result Page - Header : Mobile
+
+![Mobile France Directory](Image/SC-4.jpg)
+
+### Result Page - Footer : Mobile
+
+![Mobile France Directory](Image/SC-5.jpg)
+
+### Result Page: Tablet
+
+![Tablet France Directory](Image/SC-6.jpg)
+
+### Details Page: Desktop
+
+![Desktop France Directory](Image/SC-7.jpg)
 
 ## Built With
 
