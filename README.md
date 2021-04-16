@@ -67,15 +67,15 @@ Cloning the repo to your local system (If you already have git, installed in you
 
 - [Copy this link](https://vagyasri.github.io/Events-Directory/)
 - Open your terminal or command line
-- Run "git clone <[Paste this link](https://vagyasri.github.io/Events-Directory/)>"
+- Run "git clone [Paste this link](https://vagyasri.github.io/Events-Directory/)"
 - Open the folder with your code editor
 - Now You can edit the code and check the changes in the browser using Live Server
 
 Check linter errors:
 
 - Install npm
-- Run <npx hint .> for HTML
-- Run <npx stylelint “**/*.css”> for CSS
+- For HTML: Run npx hint .
+- For CSS: Run npx stylelint “**/*.css”
 
 ## 🤝 Contributing
 
