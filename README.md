@@ -57,13 +57,13 @@
 
 ## Getting Started
 
-Prerequisites:
+### Prerequisites:
 
 - Web browser
 - Code Editor
 - Live Server Extension
 
-Cloning the repo to your local system (If you already have git, installed in your system):
+### Cloning the repo to your local system (If you already have git, installed in your system):
 
 - [Copy this link](https://vagyasri.github.io/Events-Directory/)
 - Open your terminal or command line
@@ -71,7 +71,7 @@ Cloning the repo to your local system (If you already have git, installed in you
 - Open the folder with your code editor
 - Now You can edit the code and check the changes in the browser using Live Server
 
-Check linter errors:
+### Check linter errors:
 
 - Install npm
 - For HTML: Run npx hint .
@@ -79,9 +79,9 @@ Check linter errors:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+### Contributions, issues, and feature requests are welcome!
 
-Start by:
+### Start by:
 
 - Forking the project
 - Cloning the project to your local machine
@@ -91,12 +91,12 @@ Start by:
 - Push your branch up to your forked repository
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](https://github.com/Vagyasri/Events-Directory/issues), contribute to the Project by creating an issue.
+### Feel free to check the [issues page](https://github.com/Vagyasri/Events-Directory/issues), contribute to the Project by creating an issue.
 
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+### Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Project originally taken from The Odin Project
