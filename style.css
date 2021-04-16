@@ -1,8 +1,17 @@
 :root {
   --red: #cc4233;
   --black: #2e2c2c;
-  --font: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu,
-    cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    oxygen,
+    ubuntu,
+    cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 .flex-btn {
@@ -138,7 +147,7 @@ div a {
     flex-direction: row;
   }
 
-  .header-nav-text{
+  .header-nav-text {
     display: none;
   }
 }
