@@ -83,10 +83,30 @@ button a {
   width: 120px;
 }
 
+.red-section {
+  background-color: #e17f65;
+}
+
+.gray-section {
+  background-color: #99a5a6;
+}
+
+.sky-section {
+  background-color: #519cd7;
+}
+
 /* Result Page  */
 
 .form-section {
   background-color: rgb(241, 241, 241);
+}
+
+.button-first {
+  background-color: #457db4;
+}
+
+.button-last {
+  background-color: #e6ac5b;
 }
 
 /* Detail Page  */
