@@ -1,17 +1,8 @@
 :root {
   --red: #cc4233;
   --black: #2e2c2c;
-  --font:
-    -apple-system,
-    blinkmacsystemfont,
-    "Segoe UI",
-    roboto,
-    oxygen,
-    ubuntu,
-    cantarell,
-    "Open Sans",
-    "Helvetica Neue",
-    sans-serif;
+  --font: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu,
+    cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .flex-btn {
@@ -141,11 +132,25 @@ div a {
     width: 50%;
     margin: 0 auto;
   }
+
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-nav-text{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .gateway {
     width: 90%;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
   }
 
   .footer-logo {
