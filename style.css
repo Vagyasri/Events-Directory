@@ -150,10 +150,6 @@ div a {
   .header-nav-text {
     display: none;
   }
-
-  .f-logo {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -166,17 +162,12 @@ div a {
     flex-direction: column;
   }
 
-  .footer-logo {
-    height: 90px;
-    width: 120px;
-  }
-
-  .f-logo {
-    width: 100%;
-  }
-
   .form-detail {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .logo-footer-container {
+    width: 100%;
   }
 }
