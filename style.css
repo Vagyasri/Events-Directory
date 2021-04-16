@@ -150,6 +150,10 @@ div a {
   .header-nav-text {
     display: none;
   }
+
+  .detail-main-btn {
+    margin-right: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,5 +173,9 @@ div a {
 
   .logo-footer-container {
     width: 100%;
+  }
+
+  .detail-main-btn {
+    margin-right: 0;
   }
 }
