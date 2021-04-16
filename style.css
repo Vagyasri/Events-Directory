@@ -150,6 +150,10 @@ div a {
   .header-nav-text {
     display: none;
   }
+
+  .f-logo {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
