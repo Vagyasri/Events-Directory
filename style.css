@@ -1,10 +1,42 @@
 :root {
   --red: #cc4233;
   --black: #2e2c2c;
+  --font:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    oxygen,
+    ubuntu,
+    cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+a {
+  font-family: var(--font);
 }
 
 ul {
   list-style-type: none;
+}
+
+a span {
+  font-family: var(--font);
 }
 
 li a {
@@ -57,10 +89,47 @@ button a {
   background-color: rgb(241, 241, 241);
 }
 
-/* Details Page  */
+/* Detail Page  */
 
-@media screen and (max-width: 480px) {
+.detail-image {
+  width: 100%;
+  height: 500px;
+}
+
+.detail-form {
+  background-color: rgb(241, 241, 241);
+  border: none;
+  border-bottom: 2px dotted var(--black);
+}
+
+div a {
+  text-decoration: none;
+  color: green;
+}
+
+@media screen and (max-width: 1024px) {
+  .form-detail {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .gateway {
     width: 90%;
+  }
+
+  .footer-logo {
+    height: 90px;
+    width: 120px;
+  }
+
+  .f-logo {
+    width: 100%;
+  }
+
+  .form-detail {
+    width: 100%;
+    margin: 0 auto;
   }
 }
