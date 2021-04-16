@@ -116,6 +116,10 @@ button a {
   height: 500px;
 }
 
+.form-one {
+  border: 1px solid #99a5a6;
+}
+
 .detail-form {
   background-color: rgb(241, 241, 241);
   border: none;
