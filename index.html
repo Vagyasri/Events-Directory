@@ -36,17 +36,19 @@
       <main class="m-layout w-100 overflow-hidden flex-center">
         <div class="text-center flex-center flex-column gateway">
             <h1 class="text-light h2">France Directory... Your Gateway to Events in France</h1>
-            <form class="m-form bg-light py-3 rounded-3 mb-3 w-100">
+            <div class="m-form bg-light py-3 rounded-3 mb-3 w-100">
               <p class="text-start fw-bold px-3">Search by Key Word:</p>
               <div class="container d-flex flex-column flex-md-row pb-3 px-4">
                 <div class="col-12 col-md-9 p-0">
                   <input type="text" class="form-control">
                 </div>
                 <div class="col-12 col-md-3 p-0">
-                  <button type="Submit" class="form-control text-light bg-danger">Search</button>
+                  <form action="result.html">
+                    <input type="submit" value="Search" class="form-control text-light bg-danger">
+                  </form>
                 </div>
             </div>
-            </form>
+          </div>
             <form action="result.html">
               <input type="submit" value="How it works" class="text-dark">
             </form>
