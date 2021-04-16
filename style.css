@@ -1,8 +1,181 @@
 :root {
-    --pink: #ff385c;
-    --gray: #a3a3a3;
+  --red: #cc4233;
+  --black: #2e2c2c;
+  --font:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    oxygen,
+    ubuntu,
+    cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+a {
+  font-family: var(--font);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a span {
+  font-family: var(--font);
+}
+
+li a {
+  text-decoration: none;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.header-bg {
+  background-color: var(--red);
+}
+
+.text-space {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.m-layout {
+  background: url(Image/main.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.gateway {
+  width: 70%;
+}
+
+.m-form {
+  opacity: 0.7;
+}
+
+.search-img {
+  width: 90px;
+}
+
+.footer {
+  background-color: var(--black);
+}
+
+.footer-logo {
+  height: 90px;
+  width: 120px;
+}
+
+.red-section {
+  background-color: #e17f65;
+}
+
+.gray-section {
+  background-color: #99a5a6;
+}
+
+.sky-section {
+  background-color: #519cd7;
+}
+
+/* Result Page  */
+
+.form-section {
+  background-color: rgb(241, 241, 241);
+}
+
+.button-first {
+  background-color: #457db4;
+}
+
+.button-last {
+  background-color: #e6ac5b;
+}
+
+/* Detail Page  */
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+.form-one {
+  border: 1px solid #99a5a6;
+}
+
+.detail-form {
+  background-color: rgb(241, 241, 241);
+  border: none;
+  border-bottom: 2px dotted var(--black);
+}
+
+div a {
+  text-decoration: none;
+  color: green;
+}
+
+.form-detail {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .form-detail {
+    width: 50%;
+    margin: 0 auto;
   }
-  
-  ul {
-    list-style-type: none;
+
+  .header-nav {
+    display: flex;
+    flex-direction: row;
   }
+
+  .header-nav-text {
+    display: none;
+  }
+
+  .detail-main-btn {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gateway {
+    width: 90%;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-detail {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo-footer-container {
+    width: 100%;
+  }
+
+  .detail-main-btn {
+    margin-right: 0;
+  }
+}

@@ -9,14 +9,33 @@
 
 # Screenshot
 
-### Mobile
+### Main Search Page: Mobile
 
+![Mobile France Directory](Image/SC-3.jpg)
 
-![Mobile France Directory](mobile-art.png)
+### Main Search Page: Tablet
 
-### Desktop
+![Tablet France Directory](Image/SC-2.jpg)
 
-![Desktop France Directory](articles.png)
+### Main Search Page: Desktop
+
+![Desktop France Directory](Image/SC-1.jpg)
+
+### Result Page - Header : Mobile
+
+![Mobile France Directory](Image/SC-4.jpg)
+
+### Result Page - Footer : Mobile
+
+![Mobile France Directory](Image/SC-5.jpg)
+
+### Result Page: Tablet
+
+![Tablet France Directory](Image/SC-6.jpg)
+
+### Details Page: Desktop
+
+![Desktop France Directory](Image/SC-7.jpg)
 
 ## Built With
 
@@ -26,9 +45,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://vagyasri.github.io/Online-Events-Directory/)
+[Live Demo Link](https://vagyasri.github.io/Events-Directory/)
 
-## Author 1
+## Author
 
 👤 **Bhagyashree Patra**
 
@@ -36,11 +55,33 @@
 - Twitter: [@twitterhandle](https://twitter.com/Lucky86074644)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
 
+## Getting Started
+
+### Prerequisites:
+
+- Web browser
+- Code Editor
+- Live Server Extension
+
+### Cloning the repo to your local system (If you already have git, installed in your system):
+
+- [Copy this link](https://vagyasri.github.io/Events-Directory/)
+- Open your terminal or command line
+- Run "git clone [Paste this link](https://vagyasri.github.io/Events-Directory/)"
+- Open the folder with your code editor
+- Now You can edit the code and check the changes in the browser using Live Server
+
+### Check linter errors:
+
+- Install npm
+- For HTML: Run npx hint .
+- For CSS: Run npx stylelint “**/*.css”
+
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+### Contributions, issues, and feature requests are welcome!
 
-Start by:
+### Start by:
 
 - Forking the project
 - Cloning the project to your local machine
@@ -50,12 +91,12 @@ Start by:
 - Push your branch up to your forked repository
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](https://github.com/Vagyasri/Events-Directory/issues), contribute to the Project by creating an issue.
+### Feel free to check the [issues page](https://github.com/Vagyasri/Events-Directory/issues), contribute to the Project by creating an issue.
 
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+### Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Project originally taken from The Odin Project
