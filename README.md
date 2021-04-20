@@ -51,9 +51,9 @@
 
 👤 **Bhagyashree Patra**
 
-- GitHub: [@githubhandle](https://github.com/Vagyasri)
-- Twitter: [@twitterhandle](https://twitter.com/Lucky86074644)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
+- GitHub: [@Vagyasri](https://github.com/Vagyasri)
+- Twitter: [@Vagyasri](https://twitter.com/Vagyasri)
+- LinkedIn: [Bhagyashree Patra](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
 
 ## Getting Started
 
